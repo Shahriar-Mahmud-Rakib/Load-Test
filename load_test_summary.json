@@ -1,0 +1,315 @@
+{
+  "state": {
+    "isStdOutTTY": true,
+    "isStdErrTTY": true,
+    "testRunDurationMs": 30219.73566
+  },
+  "metrics": {
+    "http_req_failed": {
+      "values": {
+        "fails": 0,
+        "rate": 1,
+        "passes": 12
+      },
+      "thresholds": {
+        "rate<0.10": {
+          "ok": false
+        }
+      },
+      "type": "rate",
+      "contains": "default"
+    },
+    "http_req_sending": {
+      "type": "trend",
+      "contains": "time",
+      "values": {
+        "avg": 0.11096616666666666,
+        "min": 0.053674,
+        "med": 0.10246649999999999,
+        "max": 0.212158,
+        "p(90)": 0.18768300000000002,
+        "p(95)": 0.20173549999999998
+      }
+    },
+    "booking_duration_ms": {
+      "type": "trend",
+      "contains": "default",
+      "values": {
+        "p(90)": 0,
+        "p(95)": 0,
+        "avg": 0,
+        "min": 0,
+        "med": 0,
+        "max": 0
+      },
+      "thresholds": {
+        "p(95)<5000": {
+          "ok": true
+        }
+      }
+    },
+    "http_req_tls_handshaking": {
+      "type": "trend",
+      "contains": "time",
+      "values": {
+        "min": 0,
+        "med": 0,
+        "max": 619.287832,
+        "p(90)": 0,
+        "p(95)": 278.67952439999954,
+        "avg": 51.60731933333333
+      }
+    },
+    "http_req_receiving": {
+      "values": {
+        "avg": 0.2118455,
+        "min": 0.144942,
+        "med": 0.20098100000000002,
+        "max": 0.293978,
+        "p(90)": 0.2857405,
+        "p(95)": 0.2904899
+      },
+      "type": "trend",
+      "contains": "time"
+    },
+    "checks": {
+      "type": "rate",
+      "contains": "default",
+      "values": {
+        "rate": 0.5,
+        "passes": 12,
+        "fails": 12
+      }
+    },
+    "total_requests": {
+      "type": "counter",
+      "contains": "default",
+      "values": {
+        "count": 12,
+        "rate": 0.3970914946117037
+      }
+    },
+    "http_req_blocked": {
+      "type": "trend",
+      "contains": "time",
+      "values": {
+        "p(95)": 857.9585362499986,
+        "avg": 158.89387925,
+        "min": 0.013232,
+        "med": 0.015486,
+        "max": 1906.547751,
+        "p(90)": 0.0216378
+      }
+    },
+    "http_req_waiting": {
+      "type": "trend",
+      "contains": "time",
+      "values": {
+        "avg": 357.27347491666666,
+        "min": 276.038535,
+        "med": 301.86169,
+        "max": 979.993722,
+        "p(90)": 331.8768828,
+        "p(95)": 623.8337034999995
+      }
+    },
+    "http_reqs": {
+      "type": "counter",
+      "contains": "default",
+      "values": {
+        "rate": 0.3970914946117037,
+        "count": 12
+      }
+    },
+    "data_received": {
+      "type": "counter",
+      "contains": "data",
+      "values": {
+        "count": 19426,
+        "rate": 642.8249478605796
+      }
+    },
+    "vus": {
+      "values": {
+        "value": 1,
+        "min": 1,
+        "max": 1
+      },
+      "type": "gauge",
+      "contains": "default"
+    },
+    "http_req_connecting": {
+      "values": {
+        "avg": 25.367692666666667,
+        "min": 0,
+        "med": 0,
+        "max": 304.412312,
+        "p(90)": 0,
+        "p(95)": 136.98554039999976
+      },
+      "type": "trend",
+      "contains": "time"
+    },
+    "error_rate": {
+      "values": {
+        "fails": 0,
+        "rate": 1,
+        "passes": 12
+      },
+      "thresholds": {
+        "rate<0.10": {
+          "ok": false
+        }
+      },
+      "type": "rate",
+      "contains": "default"
+    },
+    "data_sent": {
+      "type": "counter",
+      "contains": "data",
+      "values": {
+        "count": 5028,
+        "rate": 166.38133624230383
+      }
+    },
+    "group_duration": {
+      "type": "trend",
+      "contains": "time",
+      "values": {
+        "avg": 517.2179755833333,
+        "min": 277.231835,
+        "med": 302.906625,
+        "max": 2211.975116,
+        "p(90)": 916.3404276000003,
+        "p(95)": 1534.9891497499991
+      }
+    },
+    "iterations": {
+      "type": "counter",
+      "contains": "default",
+      "values": {
+        "count": 6,
+        "rate": 0.19854574730585184
+      }
+    },
+    "login_duration_ms": {
+      "thresholds": {
+        "p(95)<3000": {
+          "ok": true
+        }
+      },
+      "type": "trend",
+      "contains": "default",
+      "values": {
+        "med": 0,
+        "max": 0,
+        "p(90)": 0,
+        "p(95)": 0,
+        "avg": 0,
+        "min": 0
+      }
+    },
+    "iteration_duration": {
+      "type": "trend",
+      "contains": "time",
+      "values": {
+        "min": 4572.801512,
+        "med": 4647.7469235,
+        "max": 6491.553499,
+        "p(90)": 5883.9972204999995,
+        "p(95)": 6187.77535975,
+        "avg": 5036.503845499999
+      }
+    },
+    "vus_max": {
+      "contains": "default",
+      "values": {
+        "value": 1,
+        "min": 1,
+        "max": 1
+      },
+      "type": "gauge"
+    },
+    "http_req_duration": {
+      "type": "trend",
+      "contains": "time",
+      "values": {
+        "avg": 357.5962865833333,
+        "min": 276.339774,
+        "med": 302.207574,
+        "max": 980.275844,
+        "p(90)": 332.20835680000005,
+        "p(95)": 624.1463961499995
+      },
+      "thresholds": {
+        "p(95)<5000": {
+          "ok": true
+        }
+      }
+    }
+  },
+  "root_group": {
+    "name": "",
+    "path": "",
+    "id": "d41d8cd98f00b204e9800998ecf8427e",
+    "groups": [
+      {
+        "groups": [],
+        "checks": [
+            {
+              "id": "2756fa621e6757c03723527177fb2ab9",
+              "passes": 0,
+              "fails": 6,
+              "name": "Provider Send OTP: status 2xx",
+              "path": "::Provider — Send OTP::Provider Send OTP: status 2xx"
+            },
+            {
+              "name": "Provider Send OTP: has body",
+              "path": "::Provider — Send OTP::Provider Send OTP: has body",
+              "id": "2c25b7dc4e315a0b279197a68f410006",
+              "passes": 6,
+              "fails": 0
+            }
+          ],
+        "name": "Provider — Send OTP",
+        "path": "::Provider — Send OTP",
+        "id": "1ebc6303327e87ce431c5a1c50db9dc4"
+      },
+      {
+        "name": "Provider — Verify OTP",
+        "path": "::Provider — Verify OTP",
+        "id": "2b9f7238814cf658b8e5b6e46d4af680",
+        "groups": [],
+        "checks": [
+            {
+              "passes": 0,
+              "fails": 6,
+              "name": "Provider Verify OTP: status 2xx",
+              "path": "::Provider — Verify OTP::Provider Verify OTP: status 2xx",
+              "id": "7c3b2167628aa047b27c7b3676153799"
+            },
+            {
+              "name": "Provider Verify OTP: has body",
+              "path": "::Provider — Verify OTP::Provider Verify OTP: has body",
+              "id": "4c8c15c58e3ce5b119d577b2e4dd0444",
+              "passes": 6,
+              "fails": 0
+            }
+          ]
+      }
+    ],
+    "checks": []
+  },
+  "options": {
+    "summaryTrendStats": [
+      "avg",
+      "min",
+      "med",
+      "max",
+      "p(90)",
+      "p(95)"
+    ],
+    "summaryTimeUnit": "",
+    "noColor": false
+  }
+}
